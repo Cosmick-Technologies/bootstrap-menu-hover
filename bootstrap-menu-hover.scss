@@ -1,10 +1,12 @@
 @media (min-width: 768px) {
-  .menu-hover .dropdown-menu {
-    top: 0;
-    left: 100%;
-  }
+  .menu-hover {
+    .dropdown-menu {
+      top: 0;
+      left: 100%;
+    }
 
-  .menu-hover li:hover > .dropdown-menu, .menu-hover li:focus > .dropdown-menu {
-    display: block;
+    .dropdown-toggle:hover > .dropdown-menu, .dropdown-toggle:focus > .dropdown-menu {
+      display: block;
+    }
   }
 }
